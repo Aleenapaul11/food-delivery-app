@@ -6,11 +6,13 @@
     <title>Food Delivery Navbar</title>
     <!-- css -->
     <link rel="stylesheet" href="./stylesheet.css" />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
     <!-- Bootstrap Icons -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
@@ -37,113 +39,94 @@
       referrerpolicy="no-referrer"
     />
     <style>
+      
       .navbar {
-        background-color: #003366;
-      }
-      .navbar-brand {
-        font-size: 24px;
-        font-weight: bold;
-        color: white;
-        display: flex;
-        align-items: center;
-      }
-      .navbar-brand img {
-        height: 60px;
-        margin-right: 20px;
-      }
-      .navbar-nav .nav-link {
-        color: white;
-        font-size: 18px;
-        margin-left: 10px;
-      }
-      .navbar-nav .nav-link:hover {
-        text-decoration: underline;
-      }
-      .dropdown-menu {
-        background-color: #036;
-        width: 1000x;
-        padding: 15px;
-        border-radius: 10px;
-        background: #036;
-      }
-      .dropdown-menu .dropdown-item {
-        color: white;
-        font-size: 30px;
-        padding: 10px 15px;
-      }
-      .dropdown-menu .dropdown-item:hover {
-        background-color: #00509e;
-        color: white;
-      }
+      background-color: #003366; 
+      padding: 10px 20px; 
+    }
+    .navbar-brand {
+      font-size: 20px; 
+      font-weight: bold;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand img {
+      height: 50px; 
+      margin-right: 15px; 
+    }
+    .navbar-nav .nav-link {
+      color: white;
+      font-size: 16px; 
+      margin-left: 10px; 
+    }
+    .navbar-nav .nav-link:hover {
+      text-decoration: underline;
+    }
+    .navbar-toggler {
+      border-color: rgb(255, 255, 255); 
+    }
+    .navbar-toggler-icon {
+      background-color: rgb(136, 150, 174); 
+    }
     </style>
   </head>
 
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <!-- Logo and Brand -->
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://media.istockphoto.com/id/1190040680/vector/plastic-bag-food-delivery-icon.jpg?s=612x612&w=0&k=20&c=rH4wx01088_bKVXSppri6XSj54ovSZDiW4fe5YhHJE8="
-            alt="Logo"
-          />
-          <h1>𝘿𝙄𝙉𝙀 𝘿𝙍𝙊𝙋</h1>
-        </a>
-        <!-- Toggle button for mobile view -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar Links -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
-            </li>
-            <!-- Dropdown Menu -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <i class="bi bi-list"></i>
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdown"
-              >
-                <li><a class="dropdown-item" href="">Home</a></li>
-                <li><a class="dropdown-item" href="#about">About Us</a></li>
-                <li><a class="dropdown-item" href="#blog">Blog</a></li>
-                <li><a class="dropdown-item" href="#testimonial">Testimonial</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    
+     <!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- Logo and Brand -->
+    <a class="navbar-brand" href="#home">
+      <img src="https://media.istockphoto.com/id/1190040680/vector/plastic-bag-food-delivery-icon.jpg?s=612x612&w=0&k=20&c=rH4wx01088_bKVXSppri6XSj54ovSZDiW4fe5YhHJE8=" alt="Logo">
+      <span>𝘿𝙄𝙉𝙀 𝘿𝙍𝙊𝙋</span>
+    </a>
+    <!-- Toggle button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonial">Testimonial</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#login">Login</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#search"><i class="bi bi-search"></i></a>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Sections for navigation -->
+<!-- <div id="home"></div>
+<div id="about"></div> 
+<div id="blog"></div>
+<div id="testimonial"></div> -->
+<!-- <div id="login"></div> -->
+<!-- <div id="search"></div>   -->
+                
 
     <!-- home -->
 
-    <section>
+    <section id="home">
       <div id="section-1">
     
-        <div class="pt-5"></div>
+        <div class="pt-5"></div> 
     
         <div class="container-fluid text-center mt-5">
           <h1 id="heading" class="">DISCOVER RESTAURENT AND FOOD</h1>
@@ -152,13 +135,14 @@
             lets you explore diverse cuisines, uncover hidden gems, and savor culinary masterpieces. Whether through food
             apps, word of mouth, or spontaneous visits, it enriches your palate and deepens your love for the art of food.
           </p>
-          <div class="mt-5"></div>
+           <div class="mt-5"></div> 
     
           <form action="">
     
-            <input type="text" class="me-2" placeholder="Restaurent Name" name="" id="rest-name">
-            <input type="text" class="" placeholder="All Locations" name="" id="all-local">
-            <button class="" id="search">Search</button>
+            <input  type="text" class="me-2" placeholder="Restaurent Name" name="" id="rest-name">
+            <input type="text" class="mt-2" placeholder="All Locations" name="" id="all-local">
+            <button class="mt-2 mb-5" id="search">Search</button>
+
           </form>
     
     
@@ -202,7 +186,9 @@
       </div>
       </div>
     </section>
-    <section>
+
+
+    <!-- <section>
       <div class="container-fluid">
     
           <div>
@@ -210,7 +196,7 @@
                   <h1 id="heading" class="text-center container-fluid">
                       <hr><u>OUR POPULAR BREAKFAST RECIPES</u>
                   </h1>
-          </div>
+          </div> -->
     
           <div class="pt-5"></div>
     
@@ -302,7 +288,7 @@
               alt="pic1"
             />
           </div>
-          <a class="link1" href="./breakfast.html">
+          <a class="link1" href="./breakfast-copy.html">
             <h4 class="pb-5">
               Breakfast <br /><br /><button
                 id="button3"
@@ -370,43 +356,13 @@
       </a>
     </div>
 
-    <!-- curve -->
-    <div class="parent">
-      <div class="child">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <h2 id="head" class="head2">
-              <span style="color: yellow">Get the</span> <br />DineDrop App
-            </h2>
-            <img
-              class="img-app"
-              src="./order images/google_play.png"
-              alt="pic1"
-            />
-            <img
-              class="img-app1"
-              src="./order images/app_store.png"
-              alt="pic1"
-            />
-            <br /><br />
-            <a
-              style="text-decoration: none"
-              href="https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en_IN"
-            >
-              <button class="download">Download Now</button>
-            </a>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <img id="mobile" src="./order images/mobile.png" alt="pic1" />
-          </div>
-        </div>
-      </div>
-    </div>
-
+  
     
-<!-- About -->
 
+   
+    
+
+<!-- About -->
 <div class="container-fluid pt-5" id="about" >
   <h1 class="text-center">About Us</h1>
    <center><div class="abouthr"></div></center>
@@ -428,7 +384,7 @@
   </div>
 </div>
 <!-- Latest News -->
-<div class="container-fluid pt-5 mt-4 " id="blog">
+<div class="container-fluid pt-5 mt-4" id="blog">
    <h1 class="text-center">Latest News</h1>
    <center><div class="abouthr"></div></center>
   <div class="row">
@@ -451,7 +407,7 @@
   </div>
 </div>
 <!-- testimonial -->
-<div class="container-fluid pt-5 mt-4" id="testimonial">
+<div class="container-fluid pt-5 mt-4  " id="testimonial">
   <h1 class="text-center">Testimonial</h1>
    <center><div class="abouthr"></div></center>
   <div class="row ">
@@ -461,30 +417,32 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <h3>Virginia</h3>
-                  <p class="pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam repellendus atque sapiente veniam. Repellat, iste at maiores quisquam nulla neque cumque hic, ad perspiciatis beatae earum voluptatem ipsum?</p>
+                  <p class="pt-3">The food was so delicious and the service was really great, too!</p>
                   <i class="fa-solid fa-quote-left fs-3" style="color: #5d67ee;"></i>
                 </div>
                 <div class="carousel-item">
                   <h3>Tony smith</h3>
-                  <p class="pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam repellendus atque sapiente veniam. Repellat, iste at maiores quisquam nulla neque cumque hic, ad perspiciatis beatae earum voluptatem ipsum?</p>
+                  <p class="pt-3">The food here is absolutely delicious! Every dish we tried was bursting with flavor and cooked to perfection</p>
                   <i class="fa-solid fa-quote-left fs-3" style="color: #5d67ee;"></i>
                 </div>
                 <div class="carousel-item">
                   <h3>John carter</h3>
-                  <p class="pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam repellendus atque sapiente veniam. Repellat, iste at maiores quisquam nulla neque cumque hic, ad perspiciatis beatae earum voluptatem ipsum?</p>
+                  <p class="pt-3">The flavors were perfectly balanced, and the presentation was beautiful</p>
                   <i class="fa-solid fa-quote-left fs-3" style="color: #5d67ee;"></i>
                 </div>
               </div>
-              <button class="carousel-control btn btn-primary  rounded-5 p-2 mt-3"   data-bs-target="#carouselExample" data-bs-slide="next" id="about-btn" style="height: 50px; width: 50px; " ><i class="fa-solid fa-arrow-right"></i>
-              </button>
+              
             </div>   
       </div>
       <div class="col-sm-2"></div>
   </div>
 </div>
+
 <!-- curve -->
  <div class="parentdiv">
   <div class="childdiv">
+    <center><button class="carousel-control btn btn-primary  rounded-5 p-2 mt-2 mb-1"   data-bs-target="#carouselExample" data-bs-slide="next" id="about-btn" style="height: 50px; width: 50px; " ><i class="fa-solid fa-arrow-right"></i>
+    </button></center>
 
   </div>
  </div>
@@ -528,4 +486,3 @@
 </footer>
   </body>
 </html>
-s
